@@ -116,3 +116,34 @@ a{
   #truck img{
     width: 5rem;
   }
+
+/*middle content section style*/
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
+
+#info_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+
+}
+.section{
+  border: solid 1px yellow;
+  width:35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+h3{
+  width: 10rem;
+  color: white;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+}
+
+p{
+margin-top: 1rem;
+}
